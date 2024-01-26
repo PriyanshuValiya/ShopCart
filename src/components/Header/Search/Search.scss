@@ -1,0 +1,67 @@
+.search-model {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    .form-feild {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 20px;
+        .searchbar {
+          input {
+            width: 800px;
+            height: 50px;
+            padding-left: 10px;
+            font-size: 20px;
+            font-weight: 600;
+            color: #212121;
+            border-radius: 10px 0 0 10px;
+          }
+          .MuiButton-root {
+            height: 50px;
+            border-radius: 0 10px 10px 0;
+            font-size: 1.7rem;
+            margin-bottom: 5px;
+          }
+        }
+        .closebtn {
+            font-size: 35px;
+            align-items: center;
+        }
+    }
+    .search-result-content {
+      margin: 0 40px;
+        width: 800px;
+        cursor: pointer;
+        .search-results {
+            height: 100px;
+            margin: 20px 0;           
+        }
+        .search-result-item {
+            display: flex;
+            gap: 10px;
+            padding: 5px 0;
+            border-bottom: 0.5px solid black;
+            border-radius: 5px;
+            .img-container {
+                width: 70px;
+                height: 100%;
+                img {
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+            .prod-details {
+                .name{
+                    font-size: 18px;
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                }
+                .desc {
+                    font-size: 14px;
+                    color: rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.main-header {
+    width: 100%;
+    padding: 0px;
+    background-color: #212121;
+    color: white;
+    border: 1px solid black;
+    z-index: 99;
+    position: sticky;
+    top: 0px;
+
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      padding-right: 5%;
+
+      .left {
+        list-style-type: none;
+        display: flex;
+        margin-left: 50px;
+        gap: 25px;
+        li {
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+        li:hover {
+            border-bottom: 3px solid rgb(102, 102, 222);
+        }
+      }
+      .center {
+         font-size: 35px;
+         font-weight: 400;
+         cursor: pointer;
+         font-style: italic;
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+        svg {
+           font-size: 20px;
+        }
+      }
+    }
+}

@@ -1,0 +1,26 @@
+p {
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+p:hover {
+    border-radius: 10px;
+}
+
+.shop-by-category {
+   margin: 30px 50px;
+   .categories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    .category {
+        cursor: pointer;
+     }
+    }
+    img {
+        width: 300px;
+        height: 150px;
+    }
+    
+   }

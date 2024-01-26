@@ -1,0 +1,20 @@
+span {
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.products-container {
+    margin-top: 40px;
+    margin-left: 150px;
+    .sec-heading {
+     font-size: 24px;
+     font-weight: 500;   
+     margin-bottom: 35px;
+    } 
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;       
+    }
+}

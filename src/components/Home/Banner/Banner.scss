@@ -1,0 +1,44 @@
+.hero-banner {
+    padding: 40px 0;
+    position: relative;
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    height: 100vh;
+}
+
+.content {
+    height: 100%;
+    display: flex;
+}
+
+.banner-img {
+    width: 600px;
+    height: 600px;
+    margin-right: 40px;
+    margin-top: 10px;
+    margin-bottom: 60px;
+}
+
+.text-content {
+    color: white;
+    margin-top: 150px;
+    height: 80px;
+    padding: 10px 80px;
+}
+
+h3 {
+    font-size: 75px;
+    font-weight: 80;
+    margin-bottom: 90px;
+}
+
+h1 {
+    font-size: 120px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
