@@ -1,2 +1,2 @@
 # ShopCart
-This is an E_Commerce App With React.
+This is an E-Commerce Web App With React.
